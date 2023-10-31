@@ -1,0 +1,1 @@
+kind create cluster --name devcluster --config ./kindcreatedevcluster/kind-config.yaml

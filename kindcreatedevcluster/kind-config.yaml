@@ -1,0 +1,29 @@
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+networking:
+  apiServerPort: 6443
+nodes:
+- role: control-plane
+  extraPortMappings:
+  - containerPort: 32000
+    hostPort: 32000
+  - containerPort: 32001
+    hostPort: 32001
+  - containerPort: 32002
+    hostPort: 32002
+  - containerPort: 32003
+    hostPort: 32003
+  - containerPort: 32004
+    hostPort: 32004
+  - containerPort: 32005
+    hostPort: 32005
+  - containerPort: 32006
+    hostPort: 32006
+  - containerPort: 32007
+    hostPort: 32007
+  - containerPort: 32008
+    hostPort: 32008
+  - containerPort: 32009
+    hostPort: 32009
+  - containerPort: 32010
+    hostPort: 32010
